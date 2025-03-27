@@ -1,13 +1,12 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 import pandas as pd
 
 # Load models
-with open("Climate_Risk_Index.pkl", "rb") as file:
-    model1 = pickle.load(file)
-with open("Weather_Severity.pkl", "rb") as file:
-    model2 = pickle.load(file)
+model1 = joblib.load('model1.pkl')
+model2 = joblib.load('model2.pkl')
+
 
 					
 # Streamlit app title
