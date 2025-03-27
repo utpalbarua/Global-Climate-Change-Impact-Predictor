@@ -70,7 +70,7 @@ elif page == "Dataset":
     st.header("Climate Insights Dataset")
     
 # Read the CSV file directly
-    df = pd.read_csv("C:/Users/lenovo/OneDrive/Desktop/xgboost/climate_change_data.csv")
+    df = pd.read_csv("climate_change_data.csv")
 
     # Display the dataframe
     st.write("### Dataset Preview")
