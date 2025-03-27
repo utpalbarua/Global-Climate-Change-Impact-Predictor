@@ -1,5 +1,0 @@
-numpy
-pandas
-xgboost
-sklearn.model_selection
-sklearn.metrics
